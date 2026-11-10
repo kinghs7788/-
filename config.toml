@@ -1,0 +1,16 @@
+# 라이트/다크 테마를 각각 지정하면 사용자의 시스템 설정(다크 모드)을 따른다.
+[theme.light]
+primaryColor = "#2E7D32"
+
+[theme.dark]
+primaryColor = "#66BB6A"
+
+[client]
+# 오른쪽 위 Deploy 버튼 등 개발용 메뉴 숨김
+toolbarMode = "minimal"
+
+[server]
+runOnSave = true
+
+[browser]
+gatherUsageStats = false
